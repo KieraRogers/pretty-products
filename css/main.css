@@ -1,7 +1,75 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  margin: 0;
+  font-family: "Karma", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+li {
+  border: 3px solid #987ffa;
+  border-radius: 6px;
+  list-style: none;
+}
+
+ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #6f00e7;
+  margin: 0;
+}
+
+p {
+  font-family: "Karma", serif;
+  text-align: center;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .1em;
+  padding-bottom: .5em;
+  margin: 0;
+}
+
+.products {
+  max-width: 100%;
+  padding: 1rem 4.05rem 1rem 4.05rem;
+}
+
+.cart-button {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3em;
+  color: white;
+  background-color: #6f00e7;
+  padding-top: .3em;
+  padding-bottom: .6em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin: 1rem;
 }
