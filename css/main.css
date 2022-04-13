@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   margin: 0;
-  font-family: 'Karma', serif;
+  font-family: Karma, serif;
 }
 
 *, *::before, *::after {
@@ -36,7 +36,7 @@ ul > li {
 }
 
 h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   text-align: center;
   font-weight: 900;
   font-size: 2rem;
@@ -45,7 +45,7 @@ h2 {
 }
 
 p {
-  font-family: 'Karma', serif;
+  font-family: Karma, serif;
   text-align: center;
   font-size: 1.4rem;
   padding-left: 1rem;
@@ -61,7 +61,7 @@ p {
 }
 
 .cart-button {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   text-decoration: none;
   display: inline-block;
   border-radius: 3em;
